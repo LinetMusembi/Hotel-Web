@@ -1,0 +1,240 @@
+body{
+    font-size: x-large;
+}
+.preview{
+    
+    display: grid;
+    grid-template-columns: repeat(7,1fr); 
+     background-image: url(mansion.jpeg);opacity: 80%;
+     background-repeat:no-repeat;
+     background-size: cover;
+} 
+.preview a{
+    text-decoration: none;
+}
+.preview button{
+    padding: 10px;
+    width: 100px;
+    border-radius: 20px;
+    color: rgb(93, 93, 173);
+    border-color: rgb(69, 69, 158);
+    
+    
+} 
+.relax{
+    color: rgb(92, 92, 248);
+}
+.outline{
+    display: flex;
+}
+.preview .button1{
+   background-color: rgb(39, 39, 189); 
+   color: antiquewhite;
+}
+.preview .writtings{
+    text-align: center;
+
+}
+.location{
+    display: flex;
+    grid-template-columns: repeat(3,1fr);
+
+}
+.location img{
+    width: 90%;
+    height: 60vh;
+    border-radius: 20px;
+}
+.button2{
+    padding: 10px;
+    width: 100px;
+    border-radius: 20px;
+    color: rgb(93, 93, 173);
+    border-color: rgb(69, 69, 158);
+    
+
+}
+
+
+.eat{
+    display: flex;
+    grid-template-columns: repeat(4,1 fr);
+
+}
+.eat img{
+    height: 50%;
+    width: 50%;
+}
+
+.menu img{
+    height: 60%;
+    width: 80%;
+}
+.menu{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.clients{
+    text-align: center;
+
+}
+.person{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.food{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.food img{
+    height: 20vh;
+    width: 30%;
+}
+.person img{
+    height: 30vh;
+    width: 20%;
+}
+.all{
+    display: flex;
+        gap: 40%;
+        color: black
+}
+.lunch{
+    display: flex;
+    margin-left: 40%;
+    gap: 5%;
+}
+.branch{
+   gap: 30px;
+    display: flex;
+}
+.popular{
+    text-align: center;
+}
+.room{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.lorem{
+    text-align: center;
+}
+.room img{
+    height: 60vh;
+    width: 90%;
+}
+.dinner{
+    text-align: center;
+}
+.choose{
+    text-align: center;
+}
+
+.reviews{
+    margin-left: 10%;
+}
+.main{
+    display: flex;
+}
+.subscribe{
+    text-align: center;
+    background-color: rgb(112, 112, 212);
+color: antiquewhite;
+}
+.last{
+    padding: 10px;
+    width: 100px;
+    border-radius: 20px;
+    color: rgb(93, 93, 173);
+    border-color: rgb(69, 69, 158);
+   
+    
+    
+
+}
+.arrow{
+    text-align: center;
+}
+.david{
+    width: 30%;
+}
+.lady{
+    width: 40%;
+}
+.shah{
+    width: 45%;
+}
+.twenty{
+    width: 100px;
+    border-radius: 5px;
+    background-color: rgb(42, 42, 233);
+    color: antiquewhite;
+
+}
+.fiffty{
+    width: 100px;
+    border-radius: 5px;
+    background-color: rgb(42, 42, 233);
+    color: antiquewhite;
+
+
+}
+
+
+.ten{
+    width: 100px;
+    border-radius: 5px;
+    background-color: rgb(42, 42, 233);
+    color: antiquewhite;
+
+   
+
+    
+}
+.design{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.facility{
+    text-align: center;
+}
+.more{
+    width: 100px;
+    height: 20%;
+    border-radius: 5px;
+   background-color: rgb(76, 76, 233);
+   color: antiquewhite;
+
+   
+
+}
+.now button{
+    width: 100px;
+    height: 5%;
+    border-radius: 5px;
+    background-color: rgb(42, 42, 233);
+    color: antiquewhite;
+
+   
+
+}
+.pasta button{
+    width: 100px;
+    height: 5%;
+    border-radius: 5px;
+    background-color: rgb(42, 42, 233);
+    color: antiquewhite;
+
+
+}
+.pasta button2{
+    width: 100px;
+    border-radius: 5px;
+    color: rgb(69, 69, 214);
+ 
+}
+@media  (min-width:600px) and(max-width:768px){
+    
+}
+@media (max-width:600px) {
+    
+}
