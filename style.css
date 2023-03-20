@@ -5,13 +5,30 @@ body{
     
     display: grid;
     grid-template-columns: repeat(7,1fr); 
-     background-image: url(mansion.jpeg);opacity: 80%;
+     /* background-image: url(mansion.jpeg);opacity: 80%;
+     background-repeat:no-repeat;
+     background-size: cover; */
+} 
+.Main{
+    background-image: url(mansion.jpeg);opacity: 80%;
      background-repeat:no-repeat;
      background-size: cover;
-} 
+}
 .preview a{
     text-decoration: none;
 }
+.section{
+    text-align: center;
+}
+.calendar button{
+    display: flex;
+    gap: 10%;
+    width: 50%;
+    margin-left: 30%;
+    padding: 30px;
+    border-radius: 60px;
+}
+
 .preview button{
     padding: 10px;
     width: 100px;
@@ -139,6 +156,8 @@ body{
     text-align: center;
     background-color: rgb(112, 112, 212);
 color: antiquewhite;
+border-radius: 100px;
+
 }
 .last{
     padding: 10px;
@@ -233,8 +252,9 @@ color: antiquewhite;
  
 }
 @media  (min-width:600px) and(max-width:768px){
+    .heading{
+        
+    }
     
 }
-@media (max-width:600px) {
-    
-}
+
