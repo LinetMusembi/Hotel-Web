@@ -1,5 +1,6 @@
 body{
    font-size: x-large;
+
 }
 .main{
    display: grid;
@@ -24,17 +25,17 @@ body{
    color: antiquewhite;
 }
 .Patina img{
-   height: 60vh;
-   width: 80%;
+   height: 80vh;
+   width: 95%;
 }
 .images{
    display: grid;
    grid-template-columns: repeat(3,3fr);
 }
 .images img{
-   height: 25vh;
+   height: 23vh;
    width: 100%;
-   border-radius: 10px;
+   border-radius:20px;
  
 }
 .upper{
@@ -66,6 +67,7 @@ body{
 .dinner{
    margin-left: 40%;
    margin-top: 5%;
+   background-color: white;
   
  
 }
@@ -102,7 +104,7 @@ body{
 }
 .read{
    color: rgb(92, 92, 248);
-   display: flex;
+   
 }
 .us{
    text-align: center;
@@ -141,3 +143,6 @@ body{
 }
 
 
+@media screen (min-width:600px){
+   
+}
