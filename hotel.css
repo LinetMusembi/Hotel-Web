@@ -1,0 +1,143 @@
+body{
+   font-size: x-large;
+}
+.main{
+   display: grid;
+   grid-template-columns: repeat(7,1fr);
+}
+.main  a{
+   text-decoration: none;
+}
+
+.main button{
+   padding: 10px;
+   width: 100px;
+   border-radius: 20px;
+   color: rgb(93, 93, 173);
+   border-color: rgb(69, 69, 158);
+   
+   
+} 
+
+.main .button1{
+   background-color: rgb(39, 39, 189); 
+   color: antiquewhite;
+}
+.Patina img{
+   height: 60vh;
+   width: 80%;
+}
+.images{
+   display: grid;
+   grid-template-columns: repeat(3,3fr);
+}
+.images img{
+   height: 25vh;
+   width: 100%;
+   border-radius: 10px;
+ 
+}
+.upper{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+}
+.button2{
+   padding: 10px;
+   width: 100px;
+   border-radius: 5px;
+   background-color: rgb(39, 39, 189); 
+   color: antiquewhite;
+   
+   
+
+}
+.bedroom{
+   display: flex;
+}
+.food{
+   display: flex;
+}
+.breakfast{
+   display: flex;
+}
+/* .river{
+   display: flex; */
+/* } */
+.dinner{
+   margin-left: 40%;
+   margin-top: 5%;
+  
+ 
+}
+.read{
+   text-align: center;
+   margin-left: 60%;
+}
+.all{
+   display: flex;
+       gap: 40%;
+       color: black
+}
+.branch{
+   gap: 30px;
+    display: flex;
+}
+.book{
+   padding: 10px;
+   width: 100px;
+   border-radius: 5px;
+   background-color: rgb(39, 39, 189); 
+   color: antiquewhite;
+   
+
+}
+.now{
+   padding: 10px;
+   width: 100px;
+   border-radius: 5px;
+   color: rgb(93, 93, 173);
+   border-color: rgb(69, 69, 158);
+   
+   
+}
+.read{
+   color: rgb(92, 92, 248);
+   display: flex;
+}
+.us{
+   text-align: center;
+}
+.story{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+}
+.more{
+   padding: 10px;
+   width: 100px;
+   border-radius: 5px;
+   color: rgb(93, 93, 173);
+   border-color: rgb(69, 69, 158);
+   
+}
+.large img{
+   height: 60vh;
+   width: 80%;
+}
+.smart{
+   display: grid;
+   grid-template-columns: repeat(2,1fr); 
+}
+.mart img{
+   height: 60vh;
+   width: 80%; 
+}
+.diam{
+   padding: 10px;
+   width: 100px;
+   border-radius: 5px;
+   color: rgb(93, 93, 173);
+   border-color: rgb(69, 69, 158);
+   margin-top: 0%;
+}
+
+
