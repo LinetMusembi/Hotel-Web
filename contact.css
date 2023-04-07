@@ -35,9 +35,13 @@ body{
     gap: 10%;
     margin-left: 5%;
 }
+#text{
+    padding: 35px 35px;
+}
 .text{
     width: 50%;
     height: 40%;
+    margin: 5%;
 }
 .submit{
     background-color:rgb(28, 28, 231);
@@ -60,13 +64,21 @@ body{
      display: flex;
  }
  .message{
-    border-radius:50px;
     margin-left: 5%;
-    background-color: white;
-    width: 50%;
-    height: 60%;
-    
  }
+ @media  (min-width:600px){
+    .body{
+        font-size: small;
+        
+    }
+ .tables{
+        grid-template-columns: 2fr;
+    }
 
+ .button1{ 
+ margin-left: 216px;
+}
+    
+}
     
 
